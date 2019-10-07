@@ -1,0 +1,13 @@
+theme: jekyll-theme-minimal
+
+sidebar-sample:
+  - title: "Make Your DoodleBot"
+    url: /make.md
+  - title: "Program Your DoodleBot"
+    url: /program.md
+  - title: "Train Your DoodleBot"
+    url: /train.md
+  - title: "Projects"
+    url: /projects.md
+  - title: "Resources"
+    url: /resources.md
