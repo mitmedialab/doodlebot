@@ -1,0 +1,15 @@
+docs:
+  - title: "Create a DoodleBot!"
+    children:
+      - title: "Make Your DoodleBot!"
+        url: /docs/make.md/
+      - title: "Program Your DoodleBot!"
+        url: /docs/program.md/
+      - title: "Train Your DoodleBot!"
+        url: /docs/train.md"
+
+  - title: Projects
+    url: /docs/projects.md/
+
+  - title: Resources
+    url: /docs/resources.md/
