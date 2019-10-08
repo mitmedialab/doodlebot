@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
+---
 sidebar:
   nav: "docs"
+---
 
