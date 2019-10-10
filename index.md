@@ -2,9 +2,11 @@
 layout: default
 ---
 
+Doodle Bot is a 
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to another page](./program.html).
 
 There should be whitespace between paragraphs.
 
