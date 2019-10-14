@@ -135,17 +135,17 @@ The microcontroller provides 5 volt signals to the darlington array which in tur
 
 1. Start with pin next to the ground pin on the darlington driver, and install orange, yellow, green, and blue wires in that order (Image 1).
 2. Attach the jumpers to the following arduino pins (Image 2):
-  1. orange - Digital pin 4
-  2. yellow - Digital pin 5
-  3. green - Digital pin 6
-  4. blue - Digital pin 7
+  * 1. orange - Digital pin 4
+  * 2. yellow - Digital pin 5
+  * 3. green - Digital pin 6
+  * 4. blue - Digital pin 7
 3. Back at the darlington, continue jumper for the other stepper in the reverse of the others:
   * blue, green, yellow, and orange (Image 3).
 4. Attach the jumpers to the following arduino pins (Image 4):
-  1. blue - Digital pin 9 (pin 8 used latter for the servo).
-  2. green - Digital pin 10
-  3. yellow - Digital pin 11
-  4. orange - Digital pin 12
+  * 1. blue - Digital pin 9 (pin 8 used latter for the servo).
+  * 2. green - Digital pin 10
+  * 3. yellow - Digital pin 11
+  * 4. orange - Digital pin 12
   
   ## Step 11: Stepper Coil Connections
   
@@ -189,10 +189,49 @@ If your robot is moving in an approximate square, it is time to put some paper d
 Measure your wheel diameter (Image 1) and wheel base (Image 2) in millimeters.
 
 Your calibration settings in the code are:
-
+```
 float wheel_dia=63;     // mm (increase = spiral out)
 float wheel_base=109;   // mm (increase = spiral in)
 int steps_rev=128;      // 128 for 16x gearbox, 512 for 64x gearbox
+```
 I started with a measured wheel diameter of 65 mm and you can see the boxes rotating outward or clockwise each step (Image 3).
 
 I eventually arrived at a value of 63mm (Image 4). You can see that there is still some inherent error due to gear lash and such. Close enough to do something interesting!
+
+## Step 16: Raising and Lowering the Pen
+
+We've added a servo, but haven't done anything with it. It allows you to raise and lower the pen so the robot can move without drawing.
+
+1. Place the pen collar on the pen (Image 1).
+  * If it is loose, tape it in place.
+2. Check that it will touch the paper when the servo arm is lowered.
+3. Check that it will not touch the paper when raised.
+
+The servo angles can be adjusted either by removing the horn and re-positioning it, or through the software:
+```
+int PEN_DOWN = 20; // angle of servo when pen is down
+int PEN_UP = 80;   // angle of servo when pen is up
+```
+
+The pen commands are:
+```
+penup(); 
+pendown();
+```
+If you want to use different pen sizes, you will have to modify the pen holder (www.thingiverse.com/thing:1052725) and pen collar (www.thingiverse.com/thing:1053273) with the correct diameter.
+
+## Step 17: Have Fun!
+
+Now it is time to explore. If you look at the test sketch, you will see I have provided you some standard "Turtle" commands:
+
+```
+forward(distance);   // millimeters
+backward(distance);
+left(angle);         // degrees
+right(angle);
+penup();
+pendown();
+done();              // release stepper to save battery
+```
+
+Using these commands, you should be able to do just about anything, from drawing snow flakes or writing your name. If you need some help getting started, check out:
