@@ -59,3 +59,36 @@ Before we get too far into construction, lets load the test firmware on to the m
 7. Upload the sketch using the arrow icon.
 
 If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for help.
+
+## 3. Pen Holder and Battery Holders
+
+1. Insert the nuts on the top side of the chassis (Image 1). You may have to press them in.
+2. Install the Pen Holder with the Servo Bracket on the top side of the chassis (Image 2 & 3). 
+3. Attach the battery holders on the bottom of the chassis using 3Mx6mm flat-head screws (Image 4)
+  * You need at least 5xAA to properly power an Arduino via its onboard regulartor. Six would work as well. 
+  * You want the weight shifted toward the caster, so put the 3xAA towards the back. 
+  * Orient the holders so the leads are closest to the rectangular cable runs. 
+4. Thread the battery leads through the rectangular cable runs (Image 4). 
+5. Repeat for the other battery holder. 
+**Note:** Unless specified, the remainder of the screws are 3Mx8mm pan head screws.
+
+## Step 4. Stepper Brackets
+
+1. Insert a nut into the stepper bracket and attach them to the top of the chassis with a screw (Image 1).
+2. Insert the stepper into the bracket and attach with screws and nuts.
+3. Repeat for the other bracket.
+
+## Step 5. Caster
+
+1. Insert the ball bearing into the caster. 
+  * Do not force it in or it will break. Use a hair-drier or hot air gun to soften the material if needed.
+2. Attach the caster to the bottom side of the chassis in front of the battery holder.
+**Note:** If you need a different diameter, you can edit the openScad file (http://www.thingiverse.com/thing:1052674) to fit what ever you have on hand.
+
+## Step 6. Breadboard and Brains
+1. Remove one of the power rails using a sharp knife, cutting through the bottom adhesive (Image 1).
+  * One rail has power (red) on outer edge, they other negative (blue). I'm keeping the first attached, and it will match the schematics and photos. If you use the other, just adjust the wires accordingly.
+2. Holding the breadboard over the chassis rails, mark where they intersect the edge (Image 2).
+3. Using a straight edge (like the removed power rail), mark the lines and cut through the backing (Image 3).
+4. Place the breadboard on the chassis with the rails touching the exposed adhesive (Image 4).
+5. Attach the Arduino to the other side of the chassis using 4-20 screws (Image 5).
