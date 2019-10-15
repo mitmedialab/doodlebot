@@ -34,7 +34,7 @@ First, you will need to gather a few parts.
 * 2x 1/4" thread forming 4-20 screws http://www.mcmaster.com/#90380A106
 
 ### Printed Parts:
-* placeholder
+* You can find the parts (both in STL and CAD format) here: https://github.com/mitmedialab/doodlebot/blob/master/parts
 
 ### Supplies: 
 * Phillips screw driver
