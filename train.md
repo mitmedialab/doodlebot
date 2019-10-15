@@ -2,7 +2,7 @@
 
 ## Sound classification
 
-**Main steps: **
+**Main steps:**
 
 1. Set up a server with the boilerplace that uses ML5
 2. Use a pre-trained model speech-commands to recognize speech
