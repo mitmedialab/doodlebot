@@ -106,8 +106,8 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 <img align="left" width="500" height="500" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img1.jpg" title = "Image 1">
 <img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img2.jpg" title = "Image 2">
 <img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img3.jpg" title = "Image 3">
-<img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img4.jpg" title = "Image 1">
-<img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img5.jpg" title = "Image 2"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img4.jpg" title = "Image 4">
+<img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img5.jpg" title = "Image 5"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 1. Remove one of the power rails using a sharp knife, cutting through the bottom adhesive (Image 1).
   * One rail has power (red) on outer edge, they other negative (blue). I'm keeping the first attached, and it will match the schematics and photos. If you use the other, just adjust the wires accordingly.
@@ -161,6 +161,10 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
     
 ## Step 9. Stepper Power
 
+<img align="left" width="500" height="500" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step9_img1.jpg" title = "Image 1">
+<img align="right" width="300" height="300" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step9_img2.jpg" title = "Image 2">
+<img align="right" width="300" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step9_img3.jpg" title = "Image 3"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 Now that you've got power to the microcontroller, let's finish wiring power to the steppers:
 
 1. Connect a black jumper from the upper left darlington pin to the negative side of the power rail (Image 1).
@@ -169,6 +173,12 @@ Now that you've got power to the microcontroller, let's finish wiring power to t
 4. Insert pin headers for the stepper's white JST connectors (Image 2).
 
 ## Step 10. Stepper Control Signals
+
+<img align="left" width="500" height="500" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step10_img1.jpg" title = "Image 1">
+<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step10_img2.jpg" title = "Image 2">
+<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step10_img3.jpg" title = "Image 3">
+<img align="left" width="375" height="375" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step10_img4.jpg" title = "Image 4">
+<img align="right" width="450" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step10_img5.jpg" title = "Image 5"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 The microcontroller provides 5 volt signals to the darlington array which in turn, provides VCC to the stepper coils:
 
@@ -188,11 +198,21 @@ The microcontroller provides 5 volt signals to the darlington array which in tur
   
   ## Step 11: Stepper Coil Connections
   
+ <img align="left" width="550" height="550" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step11_img1.jpg" title = "Image 1">
+<img align="right" width="275" height="275" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step11_img2.jpg" title = "Image 2">
+<img align="right" width="275" height="275" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step11_img3.jpg" title = "Image 3"><br/>
+  
  The stepper's white JST connectors attach to the pin header. The red lead is power, and should match the red power jumpers we installed earlier (Image 1).
 
 All colors should match the microcontroller jumpers on the opposite side of the darlington, with the exception of green, which matches the pink wire of the stepper (Image 2).
 
 ## Step 12: Servo
+
+<img align="left" width="500" height="500" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step12_img1.jpg" title = "Image 1">
+<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step12_img2.jpg" title = "Image 2">
+<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step12_img3.jpg" title = "Image 3">
+<img align="left" width="375" height="375" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step12_img4.jpg" title = "Image 4">
+<img align="right" width="450" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step12_img5.jpg" title = "Image 5"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 1. Install the servo horn with the servo rotated clockwise to the stop and the horn horizontal (Image 1).
 2. Attach the servo to the holder, and the horn pointed to the right stepper side (Image 1).
@@ -201,6 +221,9 @@ All colors should match the microcontroller jumpers on the opposite side of the 
 5. Connect the white signal wire to the Arduino's Digital Pin 8 (Image 4).
 
 ## Step 13: Wheels
+
+<img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step13_img1.jpg" title = "Image 1">
+<img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step13_img2.jpg" title = "Image 2"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 1. Place the rubber o-ring around the edge of the wheel (Image 1).
 2. If the fit of the hub on the axle is loose, you can use a 3M screw to hold it in place (Image 2).
@@ -222,6 +245,11 @@ If your robot is not moving, double check the power connections to the darlingto
 If your robot is moving erratically, double check the pin connections for the microcontroller and darlington driver in Step 10.
 
 ## Step 15: Calibration 
+
+<img align="left" width="600" height="600" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step15_img1.jpg" title = "Image 1">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step15_img2.jpg" title = "Image 2">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step15_img3.jpg" title = "Image 3">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step15_img4.jpg" title = "Image 4"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 If your robot is moving in an approximate square, it is time to put some paper down and put a pen in it.
 
