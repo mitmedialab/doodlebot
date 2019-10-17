@@ -102,6 +102,13 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 **Note:** If you need a different diameter, you can edit the openScad file (http://www.thingiverse.com/thing:1052674) to fit what ever you have on hand.
 
 ## Step 6. Breadboard and Brains
+
+<img align="left" width="500" height="500" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img1.jpg" title = "Image 1">
+<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img2.jpg" title = "Image 2">
+<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img3.jpg" title = "Image 3">
+<img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img4.jpg" title = "Image 1">
+<img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img5.jpg" title = "Image 2"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 1. Remove one of the power rails using a sharp knife, cutting through the bottom adhesive (Image 1).
   * One rail has power (red) on outer edge, they other negative (blue). I'm keeping the first attached, and it will match the schematics and photos. If you use the other, just adjust the wires accordingly.
 2. Holding the breadboard over the chassis rails, mark where they intersect the edge (Image 2).
@@ -110,6 +117,12 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 5. Attach the Arduino to the other side of the chassis using 4-20 screws (Image 5).
 
 ## Step 7. Capacitor and Part Placement
+
+<img align="left" width="600" height="600" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step7_img1.jpg" title = "Image 1">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step7_img2.jpg" title = "Image 2">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step7_img3.jpg" title = "Image 3">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step7_img4.jpg" title = "Image 4"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 1. Place the darlington driver and power switch on to the bread board (Image 1).
   * I've added orange dots for visibility to mark the following:
     * Pin 1 of the darlington driver
@@ -118,6 +131,16 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 3. Insert the capacitor into the correct rails on the top of the breadboard (Image 3).
 
 ## Step 8. Power
+
+<img align="left" width="500" height="500" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img1.jpg" title = "Image 1">
+<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img2.jpg" title = "Image 2">
+<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img3.jpg" title = "Image 3"><br/>
+<img align="left" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img4.jpg" title = "Image 4">
+<img align="center" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img5.jpg" title = "Image 5">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img6.jpg" title = "Image 6">
+<img align="left" width="300" height="300" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img7.jpg" title = "Image 7">
+<img align="right" width="500" height="300" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img8.jpg" title = "Image 8"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 1. With the right-hand battery leads:Connect the red line to the first pin of the power switch (Image 1).
 2. Connect the black lead to an empty row between the microcontroller and the darlington chip (Image 1).
 3. With the left-hand battery leads:Connect the red line to the same row as the black lead of the other battery (Image 2).
