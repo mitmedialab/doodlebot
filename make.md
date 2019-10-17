@@ -318,7 +318,7 @@ Using an iframe is not the "obvious" solution... especially if the Markdown pars
 <img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step18_img1.jpg" title = "Image 1">
 <img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step18_img2.jpg" title = "Image 2"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-*Could this robot be done with a <Insert your favorite board here>?*
+*Could this robot be done with a -Insert your favorite board here-?*
 
 Yes! This platform is very flexible. You would mainly just need to modify the chassis.
 
