@@ -65,6 +65,11 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## 3. Pen Holder and Battery Holders
 
+<img align="left" width="600" height="600" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step3_img1.jpg" title = "Image 1">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step3_img2.jpg" title = "Image 2">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step3_img3.jpg" title = "Image 3">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step3_img4.jpg" title = "Image 4"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 1. Insert the nuts on the top side of the chassis (Image 1). You may have to press them in.
 2. Install the Pen Holder with the Servo Bracket on the top side of the chassis (Image 2 & 3). 
 3. Attach the battery holders on the bottom of the chassis using 3Mx6mm flat-head screws (Image 4)
@@ -77,11 +82,19 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## Step 4. Stepper Brackets
 
+<img align="left" width="600" height="600" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step4_img1.jpg" title = "Image 1">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step4_img2.jpg" title = "Image 2">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step4_img3.jpg" title = "Image 3">
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step4_img4.jpg" title = "Image 4"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 1. Insert a nut into the stepper bracket and attach them to the top of the chassis with a screw (Image 1).
 2. Insert the stepper into the bracket and attach with screws and nuts.
 3. Repeat for the other bracket.
 
 ## Step 5. Caster
+
+<img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step5_img1.jpg" title = "Image 1">
+<img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step5_img2.jpg" title = "Image 2"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 1. Insert the ball bearing into the caster. 
   * Do not force it in or it will break. Use a hair-drier or hot air gun to soften the material if needed.
