@@ -267,6 +267,9 @@ I eventually arrived at a value of 63mm (Image 4). You can see that there is sti
 
 ## Step 16: Raising and Lowering the Pen
 
+<img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step16_img1.jpg" title = "Image 1">
+<img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step16_img2.jpg" title = "Image 2"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 We've added a servo, but haven't done anything with it. It allows you to raise and lower the pen so the robot can move without drawing.
 
 1. Place the pen collar on the pen (Image 1).
@@ -301,4 +304,15 @@ pendown();
 done();              // release stepper to save battery
 ```
 
-Using these commands, you should be able to do just about anything, from drawing snow flakes or writing your name. If you need some help getting started, check out:
+Using these commands, you should be able to do just about anything, from drawing snow flakes or writing your name. If you need some help getting started, click on the videos below!
+
+The Solution using Standard Markdown ( not iFrame! )
+Using an iframe is not the "obvious" solution... especially if the Markdown parser (or publishing platform) you are using does not support inlining content from a different website ... Instead you can "fake it" by including a valid linked-image in your Markdown file, using this format:
+
+[![Robots ROCK](http://i3.ytimg.com/vi/unAPCqIWjis/hqdefault.jpg)](https://www.youtube.com/embed/unAPCqIWjis "Robots ROCK")
+
+[![Arduino Drawing robot doing random patterns](http://i3.ytimg.com/vi/rsgMDhodtPg/hqdefault.jpg)](https://www.youtube.com/embed/rsgMDhodtPg "Arduino Drawing robot doing random patterns")
+
+## Step 18: Other Platforms
+
+
