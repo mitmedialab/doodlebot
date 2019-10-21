@@ -6,10 +6,11 @@ You can assemble your DoodleBot in just a few steps.
 
 First, you will need to gather a few parts.
 
-![Arduino parts](images/parts_1.jpg)
-![Bot body](images/parts_2.jpg)
-![Power supply](images/parts_3.jpg)
-![Nuts and bolts](images/parts_4.jpg)
+
+<img align="left" width="360" height="360" src="./images/parts_1.jpg" title="Image 1">
+<img align="right" width="120" height="120" src="./images/parts_2.jpg" title="Image 2">
+<img align="right" width="120" height="120" src="./images/parts_3.jpg" title="Image 3" />
+<img align="right" width="120" height="120" src="./images/parts_4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### Electronics:
 * 1x Arduino UNO or equivalent- adafruit.com/products/50
@@ -65,10 +66,10 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## 3. Pen Holder and Battery Holders
 
-<img align="left" width="600" height="600" src="./images/step3_img1.jpg" title="Image 1">
-<img align="right" width="200" height="200" src="./images/step3_img2.jpg" title="Image 2">
-<img align="right" width="200" height="200" src="./images/step3_img3.jpg" title="Image 3" />
-<img align="right" width="200" height="200" src="./images/step3_img4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="360" height="360" src="./images/step3_img1.jpg" title="Image 1">
+<img align="right" width="120" height="120" src="./images/step3_img2.jpg" title="Image 2">
+<img align="right" width="120" height="120" src="./images/step3_img3.jpg" title="Image 3" />
+<img align="right" width="120" height="120" src="./images/step3_img4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 1. Insert the nuts on the top side of the chassis (Image 1). You may have to press them in.
 2. Install the Pen Holder with the Servo Bracket on the top side of the chassis (Image 2 & 3). 
