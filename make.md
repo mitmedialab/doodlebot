@@ -10,7 +10,7 @@ First, you will need to gather a few parts.
 <img align="left" width="450" height="450" src="./images/parts_1.jpg" title="Image 1">
 <img align="left" width="150" height="150" src="./images/parts_2.jpg" title="Image 2">
 <img align="center" width="150" height="150" src="./images/parts_3.jpg" title="Image 3" />
-<img align="center" width="150" height="150" src="./images/parts_4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="center" width="150" height="150" src="./images/parts_4.jpg" title="Image 4" /><br/><br/><br/><br/>
 
 ### Electronics:
 * 1x Arduino UNO or equivalent- adafruit.com/products/50
@@ -66,10 +66,10 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## 3. Pen Holder and Battery Holders
 
-<img align="left" width="360" height="360" src="./images/step3_img1.jpg" title="Image 1">
-<img align="right" width="120" height="120" src="./images/step3_img2.jpg" title="Image 2">
-<img align="right" width="120" height="120" src="./images/step3_img3.jpg" title="Image 3" />
-<img align="right" width="120" height="120" src="./images/step3_img4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="450" height="450" src="./images/step3_img1.jpg" title="Image 1">
+<img align="left" width="150" height="150" src="./images/step3_img2.jpg" title="Image 2">
+<img align="center" width="150" height="150" src="./images/step3_img3.jpg" title="Image 3">
+<img align="center" width="150" height="150" src="./images/step3_img4.jpg" title="Image 4"><br/><br/><br/><br/>
 
 1. Insert the nuts on the top side of the chassis (Image 1). You may have to press them in.
 2. Install the Pen Holder with the Servo Bracket on the top side of the chassis (Image 2 & 3). 
@@ -83,10 +83,11 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## Step 4. Stepper Brackets
 
-<img align="left" width="600" height="600" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step4_img1.jpg" title = "Image 1">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step4_img2.jpg" title = "Image 2">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step4_img3.jpg" title = "Image 3">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step4_img4.jpg" title = "Image 4"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<img align="left" width="450" height="450" src="./images/step4_img1.jpg" title="Image 1">
+<img align="left" width="150" height="150" src="./images/step4_img2.jpg" title="Image 2">
+<img align="center" width="150" height="150" src="./images/step4_img3.jpg" title="Image 3">
+<img align="center" width="150" height="150" src="./images/step4_img4.jpg" title="Image 4"><br/><br/><br/><br/>
 
 1. Insert a nut into the stepper bracket and attach them to the top of the chassis with a screw (Image 1).
 2. Insert the stepper into the bracket and attach with screws and nuts.
@@ -94,8 +95,8 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## Step 5. Caster
 
-<img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step5_img1.jpg" title = "Image 1">
-<img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step5_img2.jpg" title = "Image 2"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="300" height="300" src="./images/step5_img1.jpg" title="Image 1">
+<img align="center" width="300" height="300" src="./images/step5_img2.jpg" title="Image 2"><br/><br/><br/><br/>
 
 1. Insert the ball bearing into the caster. 
   * Do not force it in or it will break. Use a hair-drier or hot air gun to soften the material if needed.
@@ -104,11 +105,11 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## Step 6. Breadboard and Brains
 
-<img align="left" width="500" height="500" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img1.jpg" title = "Image 1">
-<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img2.jpg" title = "Image 2">
-<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img3.jpg" title = "Image 3">
-<img align="left" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img4.jpg" title = "Image 4">
-<img align="right" width="400" height="400" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step6_img5.jpg" title = "Image 5"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="450" height="450" src="./images/step6_img1.jpg" title="Image 1">
+<img align="left" width="250" height="250" src="./images/step6_img2.jpg" title="Image 2">
+<img align="center" width="250" height="250" src="./images/step6_img3.jpg" title="Image 3">
+<img align="left" width="250" height="250" src="./images/step6_img4.jpg" title="Image 4">
+<img align="center" width="250" height="250" src="./images/step6_img5.jpg" title="Image 4"><br/><br/><br/><br/>
 
 1. Remove one of the power rails using a sharp knife, cutting through the bottom adhesive (Image 1).
   * One rail has power (red) on outer edge, they other negative (blue). I'm keeping the first attached, and it will match the schematics and photos. If you use the other, just adjust the wires accordingly.
@@ -119,10 +120,10 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## Step 7. Capacitor and Part Placement
 
-<img align="left" width="600" height="600" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step7_img1.jpg" title = "Image 1">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step7_img2.jpg" title = "Image 2">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step7_img3.jpg" title = "Image 3">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step7_img4.jpg" title = "Image 4"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="450" height="450" src="./images/step7_img1.jpg" title="Image 1">
+<img align="left" width="150" height="150" src="./images/step7_img2.jpg" title="Image 2">
+<img align="center" width="150" height="150" src="./images/step7_img3.jpg" title="Image 3">
+<img align="center" width="150" height="150" src="./images/step7_img4.jpg" title="Image 4"><br/><br/><br/><br/>
 
 1. Place the darlington driver and power switch on to the bread board (Image 1).
   * I've added orange dots for visibility to mark the following:
@@ -133,14 +134,15 @@ If you have any problems, refer to www.arduino.cc/en/Guide/Troubleshooting for h
 
 ## Step 8. Power
 
-<img align="left" width="500" height="500" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img1.jpg" title = "Image 1">
-<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img2.jpg" title = "Image 2">
-<img align="right" width="250" height="250" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img3.jpg" title = "Image 3"><br/>
-<img align="left" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img4.jpg" title = "Image 4">
-<img align="center" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img5.jpg" title = "Image 5">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img6.jpg" title = "Image 6">
-<img align="left" width="300" height="300" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img7.jpg" title = "Image 7">
-<img align="right" width="500" height="300" src="https://github.com/mitmedialab/doodlebot/blob/master/images/step8_img8.jpg" title = "Image 8"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<img align="left" width="450" height="450" src="./images/step8_img1.jpg" title="Image 1">
+<img align="left" width="150" height="150" src="./images/step8_img2.jpg" title="Image 2">
+<img align="center" width="150" height="150" src="./images/step8_img3.jpg" title="Image 3">
+<img align="center" width="150" height="150" src="./images/step8_img4.jpg" title="Image 4">
+<img align="left" width="450" height="450" src="./images/step8_img5.jpg" title="Image 1">
+<img align="left" width="150" height="150" src="./images/step8_img6.jpg" title="Image 2">
+<img align="center" width="150" height="150" src="./images/step8_img7.jpg" title="Image 3">
+<img align="center" width="150" height="150" src="./images/step8_img8.jpg" title="Image 4"><br/><br/><br/><br/>
 
 1. With the right-hand battery leads:Connect the red line to the first pin of the power switch (Image 1).
 2. Connect the black lead to an empty row between the microcontroller and the darlington chip (Image 1).
