@@ -10,7 +10,7 @@ First, you will need to gather a few parts.
 <img align="left" width="450" height="450" src="./images/parts_1.jpg" title="Image 1">
 <img align="left" width="150" height="150" src="./images/parts_2.jpg" title="Image 2">
 <img align="center" width="150" height="150" src="./images/parts_3.jpg" title="Image 3" />
-<img align="right" width="150" height="150" src="./images/parts_4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="center" width="150" height="150" src="./images/parts_4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### Electronics:
 * 1x Arduino UNO or equivalent- adafruit.com/products/50
