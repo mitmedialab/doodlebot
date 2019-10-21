@@ -7,10 +7,10 @@ You can assemble your DoodleBot in just a few steps.
 First, you will need to gather a few parts.
 
 
-<img align="left" width="360" height="360" src="./images/parts_1.jpg" title="Image 1">
-<img align="right" width="120" height="120" src="./images/parts_2.jpg" title="Image 2">
-<img align="right" width="120" height="120" src="./images/parts_3.jpg" title="Image 3" />
-<img align="right" width="120" height="120" src="./images/parts_4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="540" height="540" src="./images/parts_1.jpg" title="Image 1">
+<img align="right" width="180" height="180" src="./images/parts_2.jpg" title="Image 2">
+<img align="right" width="180" height="180" src="./images/parts_3.jpg" title="Image 3" />
+<img align="right" width="180" height="180" src="./images/parts_4.jpg" title="Image 4" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### Electronics:
 * 1x Arduino UNO or equivalent- adafruit.com/products/50
