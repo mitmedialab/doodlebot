@@ -6,10 +6,10 @@ You can assemble your DoodleBot in just a few steps.
 
 First, you will need to gather a few parts.
 
-<img align="left" width="600" height="600" src="https://github.com/mitmedialab/doodlebot/blob/master/images/parts_1.jpg" title = "Arduino parts">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/parts_2.jpg" title = "Bot body">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/parts_3.jpg" title = "Power supply">
-<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/parts_4.jpg" title = "Nuts and bolts"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" width="600" height="600" src="https://github.com/mitmedialab/doodlebot/blob/master/images/parts_1.jpg" title = "Arduino parts" />
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/parts_2.jpg" title = "Bot body" />
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/parts_3.jpg" title = "Power supply" />
+<img align="right" width="200" height="200" src="https://github.com/mitmedialab/doodlebot/blob/master/images/parts_4.jpg" title = "Nuts and bolts" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### Electronics:
 * 1x Arduino UNO or equivalent- adafruit.com/products/50
