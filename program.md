@@ -2,6 +2,8 @@
 
 Connect the Doodle Bot to the computer using a USB cord. 
 
+Download Arduino IDE from https://www.arduino.cc/en/main/software or use the online Arduino tool at https://create.arduino.cc
+
 First upload the following code to the Doodle bot to check for calibration of the bot. This programs the robot to draw 4 rectangles on top of each other. If your robot does not draw the rectangles on top of each other, then the wheels are not calibrated accurately. 
 
 Note that you need to select your Arduino type in Tools > Board > Arduino Nano (or whichever Arduino you are using) 
