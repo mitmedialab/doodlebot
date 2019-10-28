@@ -9,7 +9,8 @@ First upload the following code to the Doodle bot to check for calibration of th
 Note that you need to select your Arduino type in Tools > Board > Arduino Nano (or whichever Arduino you are using) 
 Note that you must also select the appropriate port in Tools > Port > USB-XX (port name shows up when you connect your bot to the computer using USB)
 
-```#include <Servo.h>
+```
+#include <Servo.h>
 
 // setup servo
 int servoPin = 8;
@@ -163,4 +164,5 @@ void pendown(){
   penServo.write(PEN_DOWN);
   delay(250);
 }
+
 ```
