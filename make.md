@@ -1,6 +1,8 @@
 # Make Your DoodleBot!
 
-You can assemble your DoodleBot in just a few steps. 
+You can assemble your DoodleBot in just a few steps.
+
+Thanks to the MakerBox by Ken, where we borrowed the initial design of the chassis from. 
 
 ## 1. Collect parts
 
