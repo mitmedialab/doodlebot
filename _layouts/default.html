@@ -27,7 +27,17 @@
         <p class="view"><a href="https://mitmedialab.github.io/doodlebot/program.html">Program your bot <small>Code your bot to draw cool things</small></a></p>
         <p class="view"><a href="https://mitmedialab.github.io/doodlebot/train.html">Train your bot <small>Make it smart!</small></a></p>
         <p class="view"><a href="https://mitmedialab.github.io/doodlebot/resources.html">Resources <small>Source files and code</small></a></p>
-        <p class="view"><a href="https://mitmedialab.github.io/doodlebot/projects.html">Projects <small>Library of Bot Ross projects</small></a></p>
+        <p class="view"><a href="https://mitmedialab.github.io/doodlebot/projects.html">Projects <small>Library of Bot Ross projects</small></a></p><br><br>
+
+
+
+
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+
    
         {% endif %}
 
@@ -47,13 +57,13 @@
 
       {{ content }}
 
-      </section>
+      <!-- </section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+      </footer> -->
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
