@@ -167,3 +167,66 @@ void pendown(){
 }
 
 ```
+
+Calibration functions 
+
+```
+void loop(){ // draw a calibration box 4 times
+  pendown();
+  for(int x=0; x<12; x++){
+    forward(100);
+    left(90);
+  }
+  penup();
+  done();      // releases stepper motor
+  while(1);    // wait for reset
+}
+```
+
+```
+void loop(){ // draw a calibration Octagon 2 times
+  pendown();
+  for(int x=0; x<16; x++){
+    forward(100);
+    left(45);
+  }
+  penup();
+  done();      // releases stepper motor
+  while(1);    // wait for reset
+}
+```
+
+```
+void loop(){ // draw 2 concentric circles - try out resolutions
+  pendown();
+  for(int x=0; x<180; x++){
+    forward(2);
+    left(2);
+  }
+  penup();
+
+  right(90);
+  forward(100);
+  left(90);
+
+  pendown();
+  for(int x=0; x<180; x++){
+    forward(2);
+    left(2);
+  }
+  penup();
+
+  done();      // releases stepper motor
+  while(1);    // wait for reset
+}
+```
+
+
+
+
+
+
+
+
+
+
